@@ -11,6 +11,7 @@ Below are the contents of this Python Notebook
 6. Recommendation Systems
 
   i. Content Based Recommendation System
+  
   ii. Collaborative Recommendation System
   
 7. Conclusions
