@@ -1,7 +1,9 @@
 # Non-Profit-Crowdfunding-Recommendation-System
 
-Below are the contents of this Python Notebook
+In this project we have built 2 recommendation systems (content and collaborative filtering) to recommend new projects to existing donors based on their donation history. 
 
+
+Below are the contents of this Analysis
 
 1. Background
 2. Key Business Questions
