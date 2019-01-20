@@ -1,6 +1,6 @@
 # Non-Profit-Crowdfunding-Recommendation-System
 
-In this analysis we built 2 recommendation systems (content and collaborative filtering) to recommend new projects to existing donors based on their donation history. Ypu can take a quick look at the powerpoint summary with the results and conclusions. For a detailed report and analysis please refer to python notebook.
+In this analysis we built 2 recommendation systems (content and collaborative filtering) to recommend new projects to existing donors based on their donation history. This will help DonorsChoose.org build tailored marketing campaigns to recommend better projects to Donors, to eventually increase donations. You can take a quick look at the powerpoint summary with the results and conclusions. For a detailed report and analysis please refer to python notebook.
 
 **Content Based Filtering** - We used **TF-IDF scores** and **Cosine similarity** on project titles and project descriptons to identify new projects which are similar to past projects to which a donor has donated. Overall we found that content based filtering tends to work better when we have more variety of projects donated by a donor. This helps us better understand their interests and likes/dislikes, eventually helping us provide individual recommendations. We recommended projects with an average precision of 54% and recall of 51% on top 1000 donors. 
 
