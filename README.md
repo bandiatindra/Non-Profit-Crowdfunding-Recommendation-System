@@ -6,6 +6,8 @@ In this analysis we built 2 recommendation systems (content and collaborative fi
 
 **Collaborative Filetring** - This method makes automatic predictions (filtering) about the preference of a donor by collecting preferences from many other donors (collaborating). The assumption in in this model is that if A & B have donated to one project, they are likely to share each other preferences for a project than a randomly choosen donor. We used a latent factor model, **Singular Value Decomposition** to find hidden factors that affect a donor's preferences and recommend new projects for a donor based on similar donors.
 
+**Note** - One of the major drawbacks of colaborative filtering is the cold start problem i.e. if a project has no past donor. In that case content based filtering could prove to be useful.
+
 
 Below are the contents of this Analysis
 
